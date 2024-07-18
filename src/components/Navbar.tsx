@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
       direction={'row'}
       alignContent={'center'}
       p={2}
-      sx={{ position: 'sticky', backgroundColor: '#000', top: 0, justifyContent: 'space-between' }}
+      sx={{ position: 'sticky', backgroundColor: '#000', top: 0, justifyContent: 'space-between', zIndex: 100 }}
     >
       <Link to={'/'} style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
         <img src={logo} alt="logo" height={45} />
