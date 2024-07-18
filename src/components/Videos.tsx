@@ -1,6 +1,10 @@
 import React from 'react'
 
-const Videos: React.FC = () => {
+interface VideosProps {
+  videos: Array<unknown>
+}
+
+const Videos: React.FC<VideosProps> = () => {
   return (
     <div>Videos</div>
   )
