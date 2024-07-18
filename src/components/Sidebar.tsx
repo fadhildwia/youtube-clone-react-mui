@@ -1,10 +1,13 @@
 import { Stack } from '@mui/material'
-import React, { useState } from 'react'
+import React from 'react'
 import { categories } from '../utils/constants'
 
-const Sidebar: React.FC = () => {
-  const [selectedCategory] = useState<string>('New')
+interface SidebarProps {
+  selectedCategory: string
+  setSelectedCategory: (item: string) => void
+}
 
+const Sidebar: React.FC<SidebarProps> = ({ selectedCategory, setSelectedCategory }) => {
   return (
     <Stack
     direction={'row'}
@@ -18,6 +21,7 @@ const Sidebar: React.FC = () => {
         <button
           key={index}
           className='category-btn'
+          onClick={() => setSelectedCategory(item.name)}
           style={{
             background: item.name === selectedCategory ? '#fc1503' : '#000',
             color: 'white'
