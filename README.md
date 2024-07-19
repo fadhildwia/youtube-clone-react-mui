@@ -1,30 +1,74 @@
-# React + TypeScript + Vite
+<h1 align="center">Youtube Clone</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is an example of using `Vite + React + TS`, `Material UI`, `React Query`, and `Rapid API`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br>
 
-## Expanding the ESLint configuration
+### Home, Search, Channel Detail, and Video Detail Page
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<h1 align="center">
+  <img alt="MovieApps" title="MovieApps" src="./github/home.png" height="425" />
+  <img alt="MovieApps" title="MovieApps" src="./github/full.gif" height="425" />
+  <!-- <img alt="MovieApps" title="MovieApps" src="./github/channel-detail.png" height="425" />
+  <img alt="MovieApps" title="MovieApps" src="./github/video-detail.png" height="425" /> -->
+</h1>
 
-- Configure the top-level `parserOptions` property like this:
+## 📱 Features
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Create layout using components from Material UI
+- Integration of Youtube V3 API from Rapid API
+- Create hooks for fetching data using React Query
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 🚀 Technologies & Resources
+
+- [x] [React + Vite + TypeScript](https://vitejs.dev/)
+- [x] [Material UI](https://mui.com/material-ui/getting-started/)
+- [x] [Axios](https://axios-http.com/docs/intro)
+- [x] [React Query](https://tanstack.com/query/v3)
+- [x] [Rapid API](https://rapidapi.com/ytdlfree/api/youtube-v31)
+
+## 💻 Installation
+
+1. #### Clone the repository:
+
+   ```bash
+   git clone
+   ```
+
+2. #### Navigate to the project directory:
+
+   ```bash
+   cd
+   ```
+
+3. #### Install the dependencies:
+   ```bash
+   yarn
+   or
+   npm install
+   ```
+4. #### Make a copy of `.env.example` to `.env`:
+   ```bash
+   # Put your Rapid API credential in .env file
+   cp .env.example .env
+   VITE_APP_X_RAPIDAPI_HOST=[key]
+   VITE_APP_X_RAPIDAPI_KEY=[key]
+   ```
+5. #### Run the project:
+   ```bash
+   yarn dev
+   or
+   npm run dev
+   ```
+
+<!-- ## License
+
+This example application is licensed under the [MIT License](LICENSE).
+
+--- -->
+
+---
+
+Feel free to explore the code and adapt it to suit your needs! If you encounter any issues or have suggestions for improvements, please don't hesitate to open an issue or submit a pull request.
