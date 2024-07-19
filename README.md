@@ -21,7 +21,7 @@ This project is an example of using `Vite + React + TS`, `Material UI`, `React Q
 - Integration of Youtube V3 API from Rapid API
 - Create hooks for fetching data using React Query
 
-### 🚀 Technologies & Resources
+## 🚀 Technologies & Resources
 
 - [x] [React + Vite + TypeScript](https://vitejs.dev/)
 - [x] [Material UI](https://mui.com/material-ui/getting-started/)
@@ -34,13 +34,13 @@ This project is an example of using `Vite + React + TS`, `Material UI`, `React Q
 1. #### Clone the repository:
 
    ```bash
-   git clone
+   git clone https://github.com/fadhildwia/youtube-clone-react-mui.git
    ```
 
 2. #### Navigate to the project directory:
 
    ```bash
-   cd
+   cd youtube-clone-react-mui
    ```
 
 3. #### Install the dependencies:
