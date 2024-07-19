@@ -46,7 +46,7 @@ This project is an example of using `Vite + React + TS`, `Material UI`, `React Q
 3. #### Install the dependencies:
    ```bash
    yarn
-   or
+   #or
    npm install
    ```
 4. #### Make a copy of `.env.example` to `.env`:
@@ -59,7 +59,7 @@ This project is an example of using `Vite + React + TS`, `Material UI`, `React Q
 5. #### Run the project:
    ```bash
    yarn dev
-   or
+   #or
    npm run dev
    ```
 
